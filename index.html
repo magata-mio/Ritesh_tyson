@@ -17,6 +17,7 @@
             height: 400px;
             object-fit: cover;
         }
+
         @media screen and (max-width:500px) {
             .career-intro .row .image img {
                 width: 90%;
@@ -87,6 +88,7 @@
                 <div class="col-md-6">
                     <h1 class="fs-3">Open Positions</h1>
                     <div>
+                        <!-- First Static List -->
                         <ul class="list-unstyled">
                             <li class="mb-2">
                                 <div class="d-flex justify-content-between align-items-center">
@@ -189,6 +191,524 @@
                                 </div>
                             </li>
                         </ul>
+                        <!-- Second Dynamic List -->
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <!-- First Always Open -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne-Civil-Engineer">
+                                    <!-- data-bs-target = ID -->
+                                    <button class="accordion-button shadow-none bg-light text-success fw-bold p-1"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#civil-engineer"
+                                        aria-expanded="true" aria-controls="civil-engineer">
+                                        <!-- List One -->
+                                        <div class="d-flex justify-content-between align-items-center w-100 px-2">
+                                            <p class="m-0">1. <span>Civil Engineer</span></p>
+                                            <a href="#" class="btn btn-sm btn-success">Apply Now</a>
+                                        </div>
+                                    </button>
+                                </h2>
+                                <!-- ID = data-bs-target -->
+                                <div id="civil-engineer" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne-Civil-Engineer">
+                                    <div class="accordion-body py-2 px-3">
+                                        <div class="py-1">
+                                            <div class="row">
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Cover Letter and CV</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Photo</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Citizenship Certificate</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Academic Certificate (s)</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Experience Letter (s)</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Second List -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <!-- data-bs-target = ID -->
+                                    <button
+                                        class="accordion-button collapsed shadow-none bg-light text-success fw-bold p-1"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#business-dev-trainee"
+                                        aria-expanded="false" aria-controls="business-dev-trainee">
+                                        <!-- List Two -->
+                                        <div class="d-flex justify-content-between align-items-center w-100 px-2">
+                                            <p class="m-0">2. <span>Business Development Trainee</span></p>
+                                            <a href="#" class="btn btn-sm btn-success">Apply Now</a>
+                                        </div>
+                                    </button>
+                                </h2>
+                                <!-- ID = data-bs-target -->
+                                <div id="business-dev-trainee" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body py-2 px-3">
+                                        <div class="py-1">
+                                            <div class="row">
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Cover Letter and CV</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Photo</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Citizenship Certificate</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Academic Certificate (s)</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Experience Letter (s)</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Third List -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <!-- data-bs-target = ID -->
+                                    <button
+                                        class="accordion-button collapsed shadow-none bg-light text-success fw-bold p-1"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#list-three"
+                                        aria-expanded="false" aria-controls="list-three">
+                                        <!-- List Two -->
+                                        <div class="d-flex justify-content-between align-items-center w-100 px-2">
+                                            <p class="m-0">3. <span>Business Development and Agent In charge</span></p>
+                                            <a href="#" class="btn btn-sm btn-success">Apply Now</a>
+                                        </div>
+                                    </button>
+                                </h2>
+                                <!-- ID = data-bs-target -->
+                                <div id="list-three" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body py-2 px-3">
+                                        <div class="py-1">
+                                            <div class="row">
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Cover Letter and CV</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Photo</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Citizenship Certificate</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Academic Certificate (s)</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Experience Letter (s)</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fourth List -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <!-- data-bs-target = ID -->
+                                    <button
+                                        class="accordion-button collapsed shadow-none bg-light text-success fw-bold p-1"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#list-four"
+                                        aria-expanded="false" aria-controls="list-four">
+                                        <!-- List Two -->
+                                        <div class="d-flex justify-content-between align-items-center w-100 px-2">
+                                            <p class="m-0">4. <span>Mortgage Officers</span></p>
+                                            <a href="#" class="btn btn-sm btn-success">Apply Now</a>
+                                        </div>
+                                    </button>
+                                </h2>
+                                <!-- ID = data-bs-target -->
+                                <div id="list-four" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body py-2 px-3">
+                                        <div class="py-1">
+                                            <div class="row">
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Cover Letter and CV</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Photo</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Citizenship Certificate</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Academic Certificate (s)</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Experience Letter (s)</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fifth List -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <!-- data-bs-target = ID -->
+                                    <button
+                                        class="accordion-button collapsed shadow-none bg-light text-success fw-bold p-1"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#list-five"
+                                        aria-expanded="false" aria-controls="list-five">
+                                        <!-- List Two -->
+                                        <div class="d-flex justify-content-between align-items-center w-100 px-2">
+                                            <p class="m-0">5. <span>Property Sales Expert</span></p>
+                                            <a href="#" class="btn btn-sm btn-success">Apply Now</a>
+                                        </div>
+                                    </button>
+                                </h2>
+                                <!-- ID = data-bs-target -->
+                                <div id="list-five" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body py-2 px-3">
+                                        <div class="py-1">
+                                            <div class="row">
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Cover Letter and CV</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Photo</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Citizenship Certificate</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Academic Certificate (s)</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Experience Letter (s)</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Sixth List -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <!-- data-bs-target = ID -->
+                                    <button
+                                        class="accordion-button collapsed shadow-none bg-light text-success fw-bold p-1"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#list-six"
+                                        aria-expanded="false" aria-controls="list-six">
+                                        <!-- List Two -->
+                                        <div class="d-flex justify-content-between align-items-center w-100 px-2">
+                                            <p class="m-0">6. <span>Digital Marketing Specialist</span></p>
+                                            <a href="#" class="btn btn-sm btn-success">Apply Now</a>
+                                        </div>
+                                    </button>
+                                </h2>
+                                <!-- ID = data-bs-target -->
+                                <div id="list-six" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body py-2 px-3">
+                                        <div class="py-1">
+                                            <div class="row">
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Cover Letter and CV</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Photo</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Citizenship Certificate</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Academic Certificate (s)</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                                <div class="col-sm-12 mb-1">
+                                                    <label for="upload_cv" class="d-flex align-items-center">
+                                                        <div class="bg-primary text-center text-white"
+                                                            style="width: 33px; height: 32px; line-height: 33px;">
+                                                            <i class="fas fa-plus"></i>
+                                                        </div>
+                                                        <div class="p-1 bg-success text-white">
+                                                            <span>Upload Experience Letter (s)</span>
+                                                        </div>
+                                                    </label>
+                                                    <input type="file" name="" id="upload_cv" class="d-none">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
